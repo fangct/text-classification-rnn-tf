@@ -52,7 +52,7 @@ tf.flags.DEFINE_integer("num_epochs", 20, "Number of training epochs (default: 2
 ```
 
 ### 网络模型
-具体参看`bilstm_model.py`的实现。模型结构主要如下：\
+具体参看`bilstm_model.py`的实现。模型结构主要如下：
 1. embedding_lookup
 2. conv + pool
 3. full connection
